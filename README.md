@@ -12,7 +12,6 @@
 
 
 @article{ZHANG2022110242,
-
 title = {Fault diagnosis for small samples based on attention mechanism},
 
 journal = {Measurement},
