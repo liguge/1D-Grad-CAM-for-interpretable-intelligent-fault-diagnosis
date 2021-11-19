@@ -97,3 +97,24 @@ def grad_cam(input_model, data, category_index, layer_name, nb_classes):
     print(cam.shape,'cam')
     heatmap = (cam - np.min(cam))/(np.max(cam) - np.min(cam)+1e-10)
     return heatmap
+if __name__=='__main__':
+    pred = model.predict(x_test[0][np.newaxis, :, :])
+
+# print(x_test.shape)
+
+# print(pred, 'pred')
+
+category_index = np.argmax(pred)
+
+# print(category_index,'category_index')
+
+for layer in model.layers:
+  if 'conv1d' in layer.name: 
+    conv_name = layer.name
+
+a = x_test[0][np.newaxis, :, :]
+heatmap = grad_cam(model, a, category_index, conv_name, 10)
+import scipy.io as scio
+dataNew = "D:\\网页下载\\datanew.mat"
+d = np.arange(1,2049,1)
+scio.savemat(dataNew, mdict={'cam': heatmap, 'data': a, 'suzu': d})
