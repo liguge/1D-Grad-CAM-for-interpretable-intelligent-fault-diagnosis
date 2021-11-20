@@ -1,7 +1,7 @@
 # Grad-CAM-1D-pytorch     (keras)(Pytorch)
 故障诊断（fault diagnosis） 
 
-# reference
+# Reference
 
 https://github.com/agis09/grad_cam_1d/blob/master/grad_cam.py
 
@@ -12,7 +12,7 @@ This model can input one-dimensional vibration signal directly.
 
 
 
-If this project helps you, please cite:
+# If this project helps you, please cite:
 
 
 @article{ZHANG2022110242,  
