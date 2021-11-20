@@ -147,7 +147,7 @@ class ActivationsAndGradients:
         self.activations = []
 
         target_layer.register_forward_hook(self.save_activation)
-        target_layer.register_backward_hook(self.save_gradient)
+        target_layer.register_full_backward_hook(self.save_gradient)
 
     def save_activation(self, module, input, output):
         self.activations.append(output)
@@ -205,12 +205,12 @@ class BaseCAM:
         grads = self.activations_and_grads.gradients[-1].cpu().data.numpy()[0, :]
         #weights = np.mean(grads, axis=(0))
         weights = self.get_cam_weights(input_tensor, target_category, activations, grads)
-        cam = np.zeros(activations.shape[1:], dtype=np.float32)
+        # cam = np.zeros(activations.shape[1:], dtype=np.float32)
         #
-        for i, w in enumerate(weights):
-             cam += w * activations[i, :]
+        # for i, w in enumerate(weights):
+        #     cam += w * activations[i, :]
         # cam = activations.dot(weights)
-        # cam = activations.dot(weights)
+        cam = activations.T.dot(weights)    #这个可能目前要更好一些
         # print(input_tensor.shape[1])
         # print(cam.shape)
         # x = np.arange(0, 247, 1)
