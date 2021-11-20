@@ -7,12 +7,11 @@ https://github.com/agis09/grad_cam_1d/blob/master/grad_cam.py
 https://github.com/jacobgil/pytorch-grad-cam
 
 
+This model can input one-dimensional vibration signal directly.
 
 
-这个模型直接输入一维振动信号就可以了。
 
-
-如果这个项目帮助到你 欢迎cite：
+If this project helps you, please cite:
 
 
 @article{ZHANG2022110242,  
