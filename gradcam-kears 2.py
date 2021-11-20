@@ -142,10 +142,10 @@ def grad_cam(input_model, data, category_index, layer_name, nb_classes):
     output, grads_val = output[0, :], grads_val[0, :, :]
     weights = np.mean(grads_val, axis=(0))
 
-    **cam = np.ones(output.shape[0: 1], dtype=np.float32)
+    cam = np.ones(output.shape[0: 1], dtype=np.float32)
     
        for i, w in enumerate(weights):
-           cam += w * output[:, :, i]**
+           cam += w * output[:, i]
     
     #
     # cam = cv2.resize(cam, (224, 224))
