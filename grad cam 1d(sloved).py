@@ -197,7 +197,7 @@ class BaseCAM:
         cam = np.zeros(activations.shape[1:], dtype=np.float32)
         for i, w in enumerate(weights):
             cam += w * activations[i, :]
-        # cam = activations.dot(weights)
+        # cam = activations.T.dot(weights)    #这个可能目前要更好一些
         # print(input_tensor.shape[1])
         cam = resize_1d(cam, (input_tensor.shape[2]))
         cam = np.maximum(cam, 0)
