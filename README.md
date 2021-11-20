@@ -1,6 +1,7 @@
 # Grad-CAM-1D-pytorch     (keras)(Pytorch)
-故障诊断（fault diagnosis）  
-参考
+故障诊断（fault diagnosis） 
+
+# reference
 
 https://github.com/agis09/grad_cam_1d/blob/master/grad_cam.py
 
