@@ -147,7 +147,7 @@ class BaseCAM:
         # plt.show()
         # cam = cam - np.min(cam)
         # cam = cam / np.max(cam)
-        heatmap = (cam - np.min(cam)) / (np.max(cam) - np.min(cam) + 1e-10)#归一化处理
+        heatmap = (cam - np.min(cam)) / (np.max(cam) - np.min(cam) + 1e-10)
         print(heatmap.shape)
         return heatmap
 class GradCAM(BaseCAM):
@@ -181,5 +181,5 @@ input_tensor = torch.tensor(input_tensor, dtype=torch.float32)
 output = net(input_tensor)
 import scipy.io as scio
 input_tensor = input_tensor.numpy().squeeze()
-dataNew = "G:\\研究生资料\\研二\\实践code(pytorch)\\datanew.mat"
+dataNew = "G:\\datanew.mat"
 scio.savemat(dataNew, mdict={'cam': output,'data': input_tensor})
