@@ -84,7 +84,7 @@ def grad_cam(input_model, data, category_index, layer_name, nb_classes):
         [model.layers[0].input], [conv_output, grads])
     output, grads_val = gradient_function([data])
     output, grads_val = output[0, :], grads_val[0, :, :]
-    weights = np.mean(grads_val, axis=(0)) ###  0改成了1
+    weights = np.mean(grads_val, axis=(0)) 
     # cam = np.ones(output.shape[0: 1], dtype=np.float32)
     # for i, w in enumerate(weights):
     #     cam += w * output[:, i]
@@ -115,6 +115,6 @@ for layer in model.layers:
 a = x_test[0][np.newaxis, :, :]
 heatmap = grad_cam(model, a, category_index, conv_name, 10)
 import scipy.io as scio
-dataNew = "D:\\网页下载\\datanew.mat"
+dataNew = "D:\\datanew.mat"
 d = np.arange(1,2049,1)
 scio.savemat(dataNew, mdict={'cam': heatmap, 'data': a, 'suzu': d})
