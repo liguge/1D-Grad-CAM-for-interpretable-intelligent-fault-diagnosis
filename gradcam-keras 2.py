@@ -154,7 +154,7 @@ def grad_cam(input_model, data, category_index, layer_name, nb_classes):
     #
     #
     #
-    # # Return to BGR [0..255] from the preprocessed image  显示热力图
+    # # Return to BGR [0..255] from the preprocessed image  
     # image = image[0, :]
     # image -= np.min(image)
     # image = np.minimum(image, 255)
