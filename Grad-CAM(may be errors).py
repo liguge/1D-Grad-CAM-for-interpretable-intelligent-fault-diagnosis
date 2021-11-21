@@ -120,7 +120,7 @@ class BaseCAM:
         # print(input_tensor.shape[1])
         cam = resize_1d(cam, (input_tensor.shape[2]))
         cam = np.maximum(cam, 0)
-        heatmap = (cam - np.min(cam)) / (np.max(cam) - np.min(cam) + 1e-10)#归一化处理
+        heatmap = (cam - np.min(cam)) / (np.max(cam) - np.min(cam) + 1e-10)
         return heatmap
 class GradCAM(BaseCAM):
     def __init__(self, model, target_layer, use_cuda=False):
@@ -131,11 +131,11 @@ class GradCAM(BaseCAM):
                               activations, grads):
         return np.mean(grads, axis=1)
 model = Net1()
-model.load_state_dict(torch.load('./data7/parameternn.pt'))#自己保存的模型的参数
-target_layer = model.p2_6#自己需要计算的模型的梯度
+model.load_state_dict(torch.load('./data7/parameternn.pt'))
+target_layer = model.p2_6
 net = GradCAM(model, target_layer)
 from settest import Test
-input_tensor = Test.Data[100:101, :]#自己需要改变的数据
+input_tensor = Test.Data[100:101, :]
 input_tensor = torch.tensor(input_tensor, dtype=torch.float32)
 #plt.figure(figsize=(5, 1))
 output = net(input_tensor)
