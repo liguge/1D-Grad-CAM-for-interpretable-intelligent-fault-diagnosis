@@ -28,6 +28,8 @@ url = {https://www.sciencedirect.com/science/article/pii/S0263224121011507},
 author = {Xin Zhang and **Chao He** and Yanping Lu and Biao Chen and Le Zhu and Li Zhang}  
 }  
    
+# Others works
+
 @ARTICLE{9374403,  
 author={Luo, Hao and **He, Chao** and Zhou, Jianing and Zhang, Li},  
 journal={IEEE Access},   
