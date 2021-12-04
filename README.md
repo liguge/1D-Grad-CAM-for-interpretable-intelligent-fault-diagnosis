@@ -10,6 +10,7 @@ https://github.com/jacobgil/pytorch-grad-cam
 
 This model can input one-dimensional vibration signal directly.
 
+![image](https://user-images.githubusercontent.com/19371493/144694363-5e376c50-85fd-4a8f-b87c-b87199051439.png)
 
 
 # If this project helps you, please cite:
