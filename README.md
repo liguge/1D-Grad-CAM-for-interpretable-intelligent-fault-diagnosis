@@ -1,7 +1,7 @@
 # Grad-CAM-1D-pytorch     (keras)(Pytorch)
 故障诊断（fault diagnosis） 
 
-Maybe you need a software called Origin to visualize the class activation gradient.
+Maybe you need a software called [Origin](https://www.originlab.com/) to visualize the class activation gradient.
 
 # Reference
 
