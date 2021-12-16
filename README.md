@@ -18,6 +18,8 @@ url = {https://www.sciencedirect.com/science/article/pii/S0263224121011507},
 author = {Xin Zhang and **Chao He** and Yanping Lu and Biao Chen and Le Zhu and Li Zhang}  
 } 
 
+![image](https://user-images.githubusercontent.com/19371493/144694363-5e376c50-85fd-4a8f-b87c-b87199051439.png)
+
 # Reference
 
 https://github.com/agis09/grad_cam_1d/blob/master/grad_cam.py
@@ -27,7 +29,7 @@ https://github.com/jacobgil/pytorch-grad-cam
 
 This model can input one-dimensional vibration signals directly.
 
-![image](https://user-images.githubusercontent.com/19371493/144694363-5e376c50-85fd-4a8f-b87c-b87199051439.png)
+
 
 
  
