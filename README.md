@@ -1,4 +1,4 @@
-# Grad-CAM-1D-pytorch     (keras)(Pytorch)
+# Grad-CAM-1D-pytorch     (Pytorch)(Keras)
 故障诊断（fault diagnosis） 
 
 Maybe you need a software called [OriginLab](https://www.originlab.com/) to visualize the class activation gradient.
