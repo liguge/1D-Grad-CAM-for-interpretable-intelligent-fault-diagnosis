@@ -5,7 +5,7 @@ Maybe you need a software called [OriginLab](https://www.originlab.com/) to visu
 
 # If this project helps you, cite it:
 
-```python
+```html
 @article{ZHANG2022110242,  
 title = {Fault diagnosis for small samples based on attention mechanism},  
 journal = {Measurement},  
@@ -15,7 +15,7 @@ year = {2022},
 issn = {0263-2241},  
 doi = {https://doi.org/10.1016/j.measurement.2021.110242 },  
 url = {https://www.sciencedirect.com/science/article/pii/S0263224121011507},  
-author = {Xin Zhang and **Chao He** and Yanping Lu and Biao Chen and Le Zhu and Li Zhang}  
+author = {Xin Zhang and Chao He and Yanping Lu and Biao Chen and Le Zhu and Li Zhang}  
 } 
 ```
 ![image](https://user-images.githubusercontent.com/19371493/144694363-5e376c50-85fd-4a8f-b87c-b87199051439.png)
