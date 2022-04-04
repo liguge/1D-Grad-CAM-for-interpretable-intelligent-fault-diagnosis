@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
-from Acon1 import MetaAconC
 
 def target_category_loss(x, category_index, nb_classes):
     return torch.mul(x, F.one_hot(category_index, nb_classes))
