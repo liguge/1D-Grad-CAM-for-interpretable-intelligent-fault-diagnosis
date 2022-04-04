@@ -22,7 +22,7 @@ author = {Xin Zhang and Chao He and Yanping Lu and Biao Chen and Le Zhu and Li Z
 
 
 
-# Effection
+# Effect
 
 ![微信图片_20220404222733](https://user-images.githubusercontent.com/19371493/161565766-3689b89d-b447-4194-83ad-8796f9152f77.jpg)
 
