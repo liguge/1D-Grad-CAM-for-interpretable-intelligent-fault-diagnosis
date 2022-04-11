@@ -3,7 +3,7 @@
 
 Maybe you need a software called [OriginLab](https://www.originlab.com/) to visualize the class activation gradient.
 
-# If this project helps you, cite it:
+# If this project helps you, please cite it:
 
 ```html
 @article{ZHANG2022110242,  
