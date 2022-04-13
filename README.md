@@ -3,7 +3,7 @@
 
 Maybe you need a software called [OriginLab](https://www.originlab.com/) to visualize the class activation gradient.
 
-# Everyone can refer to 1D-Grad-CAM++(recommendation), and later we have made a lot of modifications.
+# Everyone can refer to 1D-Grad-CAM++(recommendation), and later we have made a lot of modifications compared to 1D-Grad-CAM.
 
 # If this project helps you, please cite it:
 
