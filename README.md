@@ -1,6 +1,9 @@
 # Grad-CAM-1D-pytorch     (Pytorch)(Keras)
 故障诊断（fault diagnosis） 
 
+This is the 1D-Grad-CAM implementation of pytorch version of  [Fault diagnosis for small samples based on attention mechanism
+](https://www.sciencedirect.com/science/article/pii/S0263224121011507)
+
 Maybe you need a software called [OriginLab](https://www.originlab.com/) to visualize the class activation gradient.
 
 # Everyone can refer to 1D-Grad-CAM++(recommendation), and later we have made a lot of modifications compared to 1D-Grad-CAM.
