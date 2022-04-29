@@ -8,7 +8,7 @@ Maybe you need a software called [OriginLab](https://www.originlab.com/) to visu
 
 # Everyone can refer to 1D-Grad-CAM++(recommendation), and later we have made a lot of modifications compared to 1D-Grad-CAM.
 
-# If this project helps you, please cite it:
+# If this project helps you, welcome to cite it:
 
 ```html
 @article{ZHANG2022110242,  
