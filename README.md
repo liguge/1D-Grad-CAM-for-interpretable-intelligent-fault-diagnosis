@@ -4,7 +4,7 @@
 This is the 1D-Grad-CAM implementation of pytorch version of  [Fault diagnosis for small samples based on attention mechanism
 ](https://www.sciencedirect.com/science/article/pii/S0263224121011507)
 
-Maybe you need a software called [OriginLab](https://www.originlab.com/) to visualize the class activation gradient.
+Maybe you need a software called [OriginLab](https://www.originlab.com/) to visualize the class activation gradient **or** [Matlibplot](https://matplotlib.org/stable/gallery/lines_bars_and_markers/multicolored_line.html#sphx-glr-gallery-lines-bars-and-markers-multicolored-line-py).
 
 # Everyone can refer to 1D-Grad-CAM++(recommendation), and later we have made a lot of modifications compared to 1D-Grad-CAM.
 
@@ -30,6 +30,8 @@ author = {Xin Zhang and Chao He and Yanping Lu and Biao Chen and Le Zhu and Li Z
 # Effect
 
 ![微信图片_20220404222733](https://user-images.githubusercontent.com/19371493/161565766-3689b89d-b447-4194-83ad-8796f9152f77.jpg)
+
+![微信截图_20220509131105](https://user-images.githubusercontent.com/19371493/167344823-5d43a907-4370-4a4e-a364-da4da8477733.png)
 
 # Reference
 
