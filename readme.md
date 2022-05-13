@@ -5,7 +5,7 @@ This is the 1D-Grad-CAM implementation of pytorch version of  [Fault diagnosis f
 ](https://www.sciencedirect.com/science/article/pii/S0263224121011507)
 
 
-However, in fact, the title [Fault diagnosis for small samples based on interpretable improved space-channel attention mechanism and improved regularization algorithm](https://doi.org/10.1016/j.measurement.2021.110242) fits the research content of the paper better.
+However, in fact, the title [Fault diagnosis for small samples based on interpretable improved space-channel attention mechanism and improved regularization algorithms](https://doi.org/10.1016/j.measurement.2021.110242) fits the research content of the paper better.
 
 
 Maybe you need a software called [OriginLab](https://www.originlab.com/) to visualize the class activation gradient **or** [Matlibplot](https://matplotlib.org/stable/gallery/lines_bars_and_markers/multicolored_line.html#sphx-glr-gallery-lines-bars-and-markers-multicolored-line-py).
