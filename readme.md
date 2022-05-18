@@ -10,7 +10,7 @@ However, in fact, the title [Fault diagnosis for small samples based on interpre
 
 Maybe you need a software called [OriginLab](https://www.originlab.com/) to visualize the class activation gradient **or** [Matlibplot](https://matplotlib.org/stable/gallery/lines_bars_and_markers/multicolored_line.html#sphx-glr-gallery-lines-bars-and-markers-multicolored-line-py).
 
-# Everyone can refer to 1D-Grad-CAM++(recommendation), and later we have made a lot of modifications compared to 1D-Grad-CAM.
+# Everyone can refer to 1D-Grad-CAM++(Recommendation!), and later we have made a lot of modifications compared to 1D-Grad-CAM.
 
 # If this project helps you, welcome to cite it:
 
