@@ -46,7 +46,25 @@ https://github.com/jacobgil/pytorch-grad-cam
 
 This model can input one-dimensional vibration signals directly.
 
-
+```html
+@inproceedings{selvaraju2017grad,
+  title={Grad-cam: Visual explanations from deep networks via gradient-based localization},
+  author={Selvaraju, Ramprasaath R and Cogswell, Michael and Das, Abhishek and Vedantam, Ramakrishna and Parikh, Devi and Batra, Dhruv},
+  booktitle={Proceedings of the IEEE international conference on computer vision},
+  pages={618--626},
+  year={2017}
+}
+```
+```html
+@inproceedings{chattopadhay2018grad,
+  title={Grad-cam++: Generalized gradient-based visual explanations for deep convolutional networks},
+  author={Chattopadhay, Aditya and Sarkar, Anirban and Howlader, Prantik and Balasubramanian, Vineeth N},
+  booktitle={2018 IEEE winter conference on applications of computer vision (WACV)},
+  pages={839--847},
+  year={2018},
+  organization={IEEE}
+}
+```
 
 
  
