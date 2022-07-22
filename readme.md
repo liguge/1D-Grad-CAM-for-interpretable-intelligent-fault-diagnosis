@@ -68,3 +68,7 @@ https://github.com/jacobgil/pytorch-grad-cam
 pytorch 1.10.0  
 python 3.8  
 cuda 10.2  
+
+# Contact
+- Chao He
+- 22110435@bjtu.edu.cn
