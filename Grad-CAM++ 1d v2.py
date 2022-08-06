@@ -177,7 +177,7 @@ class GradCAM(BaseCAM):
         return weights
 # from pytorch_grad_cam.utils.image import preprocess_image
 model = Net1()
-model.load_state_dict(torch.load('./data7/G0503_02.pt'))
+model.load_state_dict(torch.load('./data7/G0503_02.pt'))   #Load your own pretrained model
 target_layer = model.p3_0
 net = GradCAM(model, target_layer)
 from settest import Test
