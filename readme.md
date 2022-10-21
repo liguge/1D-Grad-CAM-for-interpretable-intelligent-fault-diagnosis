@@ -12,7 +12,7 @@ Maybe you need a software called [OriginLab](https://www.originlab.com/) to visu
 # This model can input one-dimensional vibration signals directly.
 # Everyone can refer to 1D-Grad-CAM++(Recommendation!), and later we have made a lot of modifications compared to 1D-Grad-CAM.
 
-# If this project helps you, please cite my work:
+# If it is helpful for your research, please kindly cite this work:
 
 ```html
 @article{ZHANG2022110242,  
