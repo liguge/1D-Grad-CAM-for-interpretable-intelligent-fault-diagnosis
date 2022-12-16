@@ -39,7 +39,7 @@ author = {Xin Zhang and Chao He and Yanping Lu and Biao Chen and Le Zhu and Li Z
 ![微信截图_20220509131105](https://user-images.githubusercontent.com/19371493/167344823-5d43a907-4370-4a4e-a364-da4da8477733.png)
 
 # Note
-If you need drawing program in python, you can use **school e-mail** to send an e-mail to **22110435 # bjtu.edu.cn ( please replace # by @ )** to, I will send it to you by e-mail.
+If you need drawing code procedure in python, you can send an e-mail to **22110435 # bjtu.edu.cn ( please replace # by @ )** by **school e-mail**, I will send it to you by e-mail.
 
 # Reference
 
