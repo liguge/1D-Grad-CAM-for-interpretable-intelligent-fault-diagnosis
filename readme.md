@@ -38,6 +38,9 @@ author = {Xin Zhang and Chao He and Yanping Lu and Biao Chen and Le Zhu and Li Z
 
 ![微信截图_20220509131105](https://user-images.githubusercontent.com/19371493/167344823-5d43a907-4370-4a4e-a364-da4da8477733.png)
 
+#Note
+若需要python画图的程序 可以使用**学校邮箱**往我的邮箱**22110435#bjtu.edu.cn   (please replace # by @)** 发个邮件，我通过邮箱发给你们。
+
 # Reference
 
 https://github.com/agis09/grad_cam_1d/blob/master/grad_cam.py
